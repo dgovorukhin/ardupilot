@@ -1,0 +1,22 @@
+{
+  "name": "Ardupilot Development",
+  // "image": "ubuntu:18.04",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "augustocdias.tasks-shell-input",
+        "bierner.markdown-mermaid",
+        "ms-vscode.cpptools",
+        "sumneko.lua",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "streetsidesoftware.code-spell-checker",
+        "chiehyu.vscode-astyle",
+        "ardupilot-org.ardupilot-devenv",
+      ]
+    }
+  }
+}
